@@ -1,0 +1,14 @@
+<package format="3">
+  <name>mpc_controller</name>
+  <version>0.0.1</version>
+  <description>This package implements MPC Controller for ROS2 using Rust</description>
+  <maintainer email="sachinkumar.ar97@gmail.com">Sachin Kumar</maintainer>
+  <license>MIT</license>
+
+  <depend>rclrs</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_cargo</build_type>
+  </export>
+</package>

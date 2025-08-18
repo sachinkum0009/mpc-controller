@@ -1,0 +1,14 @@
+[package]
+name = "mpc_controller"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = {version = "1", features = ["backtrace"]}
+rclrs = "*"
+std_msgs = "*"
+
+[[bin]]
+name="mpc_node"
+path="src/mpc_node.rs"
+

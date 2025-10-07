@@ -15,3 +15,6 @@ rerun = "0.25.1"
 name="mpc"
 path="src/mpc.rs"
 
+[[bin]]
+name="mpc_ros2_node"
+path="src/mpc_ros2_node.rs"

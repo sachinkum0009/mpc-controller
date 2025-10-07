@@ -4,11 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-anyhow = {version = "1", features = ["backtrace"]}
-rclrs = "*"
-std_msgs = "*"
+nalgebra = "0.34.1"
+rand = "0.9.2"
+rerun = "0.25.1"
+# anyhow = {version = "1", features = ["backtrace"]}
+# rclrs = "*"
+# std_msgs = "*"
 
 [[bin]]
-name="mpc_node"
-path="src/mpc_node.rs"
+name="mpc"
+path="src/mpc.rs"
 

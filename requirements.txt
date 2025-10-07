@@ -1,0 +1,6 @@
+matplotlib
+numpy
+scipy
+rerun-sdk
+control
+sympy
